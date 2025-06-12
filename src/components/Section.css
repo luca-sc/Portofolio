@@ -1,0 +1,76 @@
+.menu-sections {
+  height: 100vh;                  
+  width: 100vw;                   
+  padding: 2rem;                    
+  max-width: 1536px;                 
+  margin-left: auto;               
+  margin-right: auto;
+  display: flex;                     
+  flex-direction: column;           
+  align-items: flex-start;          
+  justify-content: center;          
+}
+.menu {
+  display: flex;            
+  flex-direction: column;   
+  align-items: center;       
+  width: 100vw;   
+               
+}
+.title{
+  font-size: 3.75rem;      
+  font-weight: 800;         
+  line-height: 1.375; 
+}
+.title span{
+    background-color: white;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    font-style: italic;
+}
+.title p{
+    font-size:1.12rem;
+    color:#4B5563;
+    margin-top: 1rem;
+}
+.title button{
+  background-color: #4F46E5;  
+  color: white;               
+  padding-top: 1rem;         
+  padding-bottom: 1rem;
+  padding-left: 2rem;         
+  padding-right: 2rem;
+  border-radius: 0.5rem;      
+  font-weight: 700;           
+  font-size: 1.125rem;        
+  margin-top: 4rem;   
+  border: none;
+  cursor: pointer;
+}
+.skill{
+    font-size: 3rem;     
+  font-weight: 700; 
+}
+.skills{
+ margin-top: 2rem;
+}
+.skill-index{
+    width: 16rem;
+}
+.skill-title{
+  font-size: 1.25rem;      
+  font-weight: 700;       
+  color: #1F2937;   
+}
+.skill1{
+ height: 0.5rem;             
+  width: 100%;               
+  background-color: #E5E7EB; 
+  border-radius: 9999px;      
+  margin-top: 0.5rem;       
+}
+.skill2{
+  height: 100%;           
+  background-color: #6366F1; 
+  border-radius: 9999px;    
+}

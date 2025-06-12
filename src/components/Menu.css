@@ -1,0 +1,95 @@
+ 
+.menu-button{
+  position: fixed;
+  top: 3rem;         
+  right: 3rem;       
+  padding: 0.75rem;  
+  background-color: #4F46E5; 
+  width: 2.75rem;    
+  height: 2.75rem;  
+  border-radius: 0.375rem; 
+  z-index: 20;
+}
+.menu-lines {
+  background-color: white;
+  height: 0.125rem; 
+  border-radius: 0.375rem; 
+  width: 100%;
+  transition: all 0.3s ease; 
+}
+
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.translate-y {
+  transform: translateY(0.125rem); 
+}
+.menu1 {
+  background-color: white;
+  height: 0.125rem; 
+  border-radius: 0.375rem; 
+  width: 100%;
+  margin: 0.25rem 0; 
+  transition: all 0.3s ease;
+}
+
+.hidden {
+  display: none;
+}
+.menu2 {
+  background-color: white;
+  height: 0.125rem; 
+  border-radius: 0.375rem; 
+  width: 100%;
+  transition: all 0.3s ease; 
+  transform-origin: center;
+}
+
+
+.menu2.rotate-negative-45 {
+  transform: rotate(-45deg);
+}
+.menu-open {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  z-index: 10;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-open.open {
+  width: 20rem; 
+}
+
+.menu-open.closed {
+  width: 0;
+}
+.menu-items {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem; 
+  padding: 2rem; 
+}
+.menu-buttons2 {
+  font-size: 1.5rem;         
+  font-weight: bold;         
+  cursor: pointer;         
+  transition: color 0.3s; 
+  background-color: white;
+  border: none;   
+}
+
+.menu-buttons2:hover {
+  color: #4f46e5;            
+}
+
+
